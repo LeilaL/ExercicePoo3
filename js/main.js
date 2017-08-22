@@ -14,10 +14,15 @@ this.description = description;
 }
 
 function carte() {
+
     this.formu = function() {
-      var x = document.getElementById("first_name").value;
-       document.getElementById("copy").innerHTML = x ;
-    };
+  var titre = document.getElementById("first_name").value;
+$("#card").append("<p>" + titre + "</p>");
+var phrase = document.getElementById("last_name").value;
+$("#card").append("<p>" + phrase + "</p>");
+var description = document.getElementById("textarea1").value;
+$("#card").append("<p>" + description + "</p>");
+};
 
 }
-formu();
+ var aclick = new carte ();
