@@ -1,6 +1,11 @@
 p {
   display: flex;
   flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+h5 {
+  text-align: center;
 }
 
 #card {
@@ -8,12 +13,6 @@ p {
   flex-wrap: wrap;
   margin-left: 25px;
 }
-
-/*#card p {
-  margin-right: 4%;
-  display: flex;
-  flex-direction: column;
-}*/
 
 #fiche {
   border: 1px solid black;

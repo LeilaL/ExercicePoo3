@@ -20,7 +20,7 @@ function carte() {
   var titre = document.getElementById("first_name").value;
 var phrase = document.getElementById("last_name").value;
 var description = document.getElementById("textarea1").value;
-$("#card").append("<div id='fiche'><p>" + titre + "</p>" + "<p>" + phrase + "</p>" + "<p>" + description + "</p></div>");
+$("#card").append("<div id='fiche'><h5>" + titre + "</h5>" + "<p>" + phrase + "</p>" + "<p><em>" + description + "</em></p></div>");
 
 document.getElementById("first_name").value = vider;
 document.getElementById("last_name").value = vider;
